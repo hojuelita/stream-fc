@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<title>Stream FC</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="script.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
 
 </head>
@@ -20,6 +21,7 @@
 		
 		<video id="videoPlayer" width="650px" height="480px" controls autoplay>
             <source src="video/video.mp4" type="video/mp4" />
+		<button type="button" onclick='exec()'>Iniciar stream</button>
             Tu navegador no admite el elemento <code>video</code>
         </video>
 	</div>
