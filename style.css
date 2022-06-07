@@ -34,4 +34,5 @@ body{
 	grid-area: lateral;
 	background: url('img/lateral.gif') bottom;
 	color: #fff;
+	font-family: 'VT323', Trebuchet, sans-serif;
 }
